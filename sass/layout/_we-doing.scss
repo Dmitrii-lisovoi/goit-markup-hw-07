@@ -16,6 +16,10 @@
   display: flex;
 }
 
+.we-doing-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .we-doing-wraper {
   position: relative;
   width: 370px;
@@ -37,8 +41,4 @@
   background: rgba(47, 48, 58, 0.8);
   padding: 27px 0;
   margin: 0;
-}
-
-.we-doing-item:not(:last-child) {
-  margin-right: 30px;
 }
