@@ -1,4 +1,4 @@
-.clients-title {
+.clients__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -9,12 +9,12 @@
   padding-bottom: 50px;
 }
 
-.clients-icon-list {
+.clients__icon-list {
   padding-bottom: 94px;
   display: flex;
 }
 
-.clients-item-list {
+.clients__item-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@
   }
 }
 
-.clients-icon-link {
+.clients__icon-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,13 +38,13 @@
   &:focus {
     border: 1px solid #2196f3;
   }
-  &:hover .clients-icon,
-  &:focus .clients-icon {
+  &:hover .clients__icon,
+  &:focus .clients__icon {
     fill: #2196f3;
   }
 }
 
-.clients-icon {
+.clients__icon {
   width: 106px;
   height: 60px;
   fill: #afb1b8;

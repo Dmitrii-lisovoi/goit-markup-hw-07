@@ -2,7 +2,7 @@
   padding-bottom: 94px;
 }
 
-.we-doing-title {
+.we-doing__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -12,21 +12,21 @@
   margin-bottom: 50px;
 }
 
-.we-doing-list {
+.we-doing__list {
   display: flex;
 }
 
-.we-doing-item:not(:last-child) {
+.we-doing__list-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.we-doing-wraper {
+.we-doing__wraper {
   position: relative;
   width: 370px;
   height: 294px;
 }
 
-.we-doing-text {
+.we-doing__item-text {
   position: absolute;
   bottom: 0;
   height: 70px;
