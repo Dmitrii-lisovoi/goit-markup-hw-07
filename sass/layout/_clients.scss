@@ -9,12 +9,12 @@
   padding-bottom: 50px;
 }
 
-.clients__icon-list {
+.clients__list {
   padding-bottom: 94px;
   display: flex;
 }
 
-.clients__item-list {
+.clients__item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@
   }
 }
 
-.clients__icon-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;

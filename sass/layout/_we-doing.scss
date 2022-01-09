@@ -16,7 +16,7 @@
   display: flex;
 }
 
-.we-doing__list-item:not(:last-child) {
+.we-doing__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -26,7 +26,7 @@
   height: 294px;
 }
 
-.we-doing__item-text {
+.we-doing__text {
   position: absolute;
   bottom: 0;
   height: 70px;

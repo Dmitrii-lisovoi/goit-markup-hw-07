@@ -19,7 +19,7 @@
   justify-content: center;
 }
 
-.team__list-item {
+.team__item {
   background-color: #ffffff;
   margin-right: 30px;
   width: 270px;
@@ -34,12 +34,12 @@
   }
 }
 
-.team-list__container {
+.team__wrapper {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-list__container-title {
+.team-wrapper__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -49,7 +49,7 @@
   margin-bottom: 10px;
 }
 
-.team-list__container-text {
+.team-wrapper__text {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
